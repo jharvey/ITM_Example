@@ -26,7 +26,7 @@ int main(void) {
 	chThdSleepMilliseconds(500);
 
 	// Debug, send some character to ITM and see if they make it.
-	//ITM_SendChar('*');
+	ITM_SendChar('*');
 
   }  // while true
 
