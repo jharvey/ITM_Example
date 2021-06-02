@@ -20,9 +20,9 @@ int main(void) {
 
   // loop forever, processing serial inputs
   while (true) {
-	palClearPad(GPIOE, 3U);  // Clear the pad to make LED bright
+	palClearPad(GPIOD, 15U);  // Clear the pad to make LED bright
 	chThdSleepMilliseconds(500);
-	palSetPad(GPIOE, 3U);    // Set the pad to make LED dim
+	palSetPad(GPIOD, 15U);    // Set the pad to make LED dim
 	chThdSleepMilliseconds(500);
 
 	// Debug, send some character to ITM and see if they make it.

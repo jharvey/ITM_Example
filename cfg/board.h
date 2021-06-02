@@ -696,7 +696,7 @@
                                      PIN_MODE_INPUT(GPIOD_PIN12) |          \
                                      PIN_MODE_INPUT(GPIOD_PIN13) |          \
                                      PIN_MODE_INPUT(GPIOD_PIN14) |          \
-                                     PIN_MODE_INPUT(GPIOD_PIN15))
+                                     PIN_MODE_OUTPUT(GPIOD_PIN15))
 #define VAL_GPIOD_OTYPER            (PIN_OTYPE_PUSHPULL(GPIOD_PIN0) |       \
                                      PIN_OTYPE_PUSHPULL(GPIOD_PIN1) |       \
                                      PIN_OTYPE_PUSHPULL(GPIOD_SD_CMD) |     \
