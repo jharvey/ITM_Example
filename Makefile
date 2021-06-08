@@ -125,6 +125,10 @@ CSRC = $(ALLCSRC) \
        $(CHIBIOS)/os/hal/lib/streams/chprintf.c \
        $(CHIBIOS)/os/various/syscalls.c 
 
+# the below was removed from the above files when PCB was spun with out USB debug cable. 
+#       usbcfg.c \
+
+
 # C++ sources that can be compiled in ARM or THUMB mode depending on the global
 # setting.
 CPPSRC = $(ALLCPPSRC)
